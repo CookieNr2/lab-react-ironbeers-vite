@@ -12,7 +12,6 @@ function App() {
     <div>
       <div className="App">
         <Navbar />
-        <h1>LAB | React IronBeers</h1>
       </div>
       <Routes>
         <Route path="/beers/:beerId" element={<BeerDetailsPage />} />
