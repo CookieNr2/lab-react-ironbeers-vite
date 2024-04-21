@@ -5,11 +5,13 @@ import Home from "./pages/HomePage";
 import AllBeersPage from "./pages/AllBeersPage";
 import RandomBeerPage from "./pages/RandomBeerPage";
 import AddBeerPage from "./pages/AddBeerPage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
       <div className="App">
+        <Navbar />
         <h1>LAB | React IronBeers</h1>
       </div>
       <Routes>
